@@ -108,3 +108,13 @@ RNN、LSTM是定向模型，也就是说它们是按照顺序从左到右理解�
 
 
 ### Coding：快速排序、编辑距离、相交链表
+
+## 腾讯
+
+### transformer和transformerXL的区别？还有什么结构支持输出长文本
+
+### Simhsh的的原理是什么？
+
+### 如何判断一个query是视频的query？
+
+### Coding：求字符串的最长无重复子串
