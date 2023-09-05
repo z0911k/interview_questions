@@ -196,3 +196,15 @@ simhash的算法具体分为5个步骤：分词、hash、加权、合并、降�
 ### 扔了10次硬币，7次正面朝上，下一次正面朝上的概率是多少？
 
 ### 如何解决哈希冲突， python的list数据结构底层是由什么实现的？
+
+## ALBERT
+
+### 一个简化版的的bert，改进主要与下面几点：
+
+### 1、参数共享，使模型更加的scalable，更容易扩展，参数更少，更容易泛化
+
+### 2、Sentence Order Prediction (SOP)句子顺序预测
+
+### 3、优化器为LAMB：Large Adaptive Mini Batches 主要是针对非常大的mini batch size设计的。相比Adam，它可以大大提升速率。
+
+### 4、单个词的masking转化为了Ngram的masking。
