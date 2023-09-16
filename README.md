@@ -191,6 +191,16 @@ simhash的算法具体分为5个步骤：分词、hash、加权、合并、降�
 
 ### langchain分为几个模块
 
+### transformer的参数主要在哪里
+
+### 输入的max_len会不会影响参数量
+
+### 限制支持长文本输入的工作有哪些？怎么解决长文本输入这个问题的
+
+### 选择不同分词方式的考虑有哪些
+
+### 相对位置编码与绝对位置编码的优劣
+
 ## 百度
 
 ### 扔了10次硬币，7次正面朝上，下一次正面朝上的概率是多少？
@@ -201,10 +211,10 @@ simhash的算法具体分为5个步骤：分词、hash、加权、合并、降�
 
 ### 一个简化版的的bert，改进主要与下面几点：
 
-### 1、参数共享，使模型更加的scalable，更容易扩展，参数更少，更容易泛化
+1、参数共享，使模型更加的scalable，更容易扩展，参数更少，更容易泛化
 
-### 2、Sentence Order Prediction (SOP)句子顺序预测
+2、Sentence Order Prediction (SOP)句子顺序预测
 
-### 3、优化器为LAMB：Large Adaptive Mini Batches 主要是针对非常大的mini batch size设计的。相比Adam，它可以大大提升速率。
+3、优化器为LAMB：Large Adaptive Mini Batches 主要是针对非常大的mini batch size设计的。相比Adam，它可以大大提升速率。
 
-### 4、单个词的masking转化为了Ngram的masking。
+4、单个词的masking转化为了Ngram的masking。
